@@ -6,6 +6,7 @@ class Example extends React.Component {
     constructor(props) {
         super(props);
         this.state = {showCode: false};
+        this.toggleCode = this.toggleCode.bind(this);
     }
 
     toggleCode(event) {
