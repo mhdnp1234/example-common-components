@@ -1,0 +1,17 @@
+.cc-text-field {
+    
+    input {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding-left: 10px;
+        height: 30px;
+        width: 100%;
+        outline: none;
+        font-size: 15px;
+        font-weight: 500;
+        color: #757575;
+        &:focus {
+            border: 2px solid #ffeb3b;
+        }
+    }
+}
